@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/sunaryohadi/primabase.svg?branch=master)](https://travis-ci.org/sunaryohadi/primabase)
-
-Primabase
+Primabase WP theme
 ===
 
 Personal WP based theme using: 

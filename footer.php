@@ -13,7 +13,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<?php printf( esc_html__( 'Powered by: %1$s.', 'primebase' ), '<a href="http://agensidigital.com/" target="_blank" rel="designer">Agensi Digital</a>' ); ?>
+			<?php printf( esc_html__( 'Theme by: %1$s.', 'primebase' ), '<a href="http://htmlia.com/" target="_blank" rel="designer">htmlia</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

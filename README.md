@@ -3,4 +3,6 @@
 Primabase
 ===
 
-Persona WP theme based using: underscores, bourbon
+Personal WP based theme using: 
+- underscores, 
+- bourbon

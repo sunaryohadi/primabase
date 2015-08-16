@@ -1,0 +1,14 @@
+{
+    "name": "sunaryohadi/primabase",
+    "description": "primabase",
+    "license": "BSD-3-Clause",
+    "type": "project",
+    "keywords": ["underscores", "wpthemes", "bourbon"],
+    "authors": [
+        {
+            "name": "Sunaryo Hadi",
+            "email": "me@sunaryohadi.info",
+            "homepage": "http://www.sunaryohadi.info/"
+        }
+    ],
+}

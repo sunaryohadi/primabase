@@ -1,0 +1,17 @@
+.site-info {
+	@include outer-container;
+	padding: 0 20px;
+	font-size: 13px;
+	line-height: 40px;
+	text-align: center;
+	color: #eee;
+	a {
+		color: #fff;
+		&:hover {
+			color: #0FF;
+		}
+	}
+	@include media($wide-screen-up) {
+		padding: 0;
+	}
+}

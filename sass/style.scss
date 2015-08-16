@@ -1,0 +1,95 @@
+/*!
+Theme Name: primebase
+Theme URI: http://underscores.me/
+Author: Sunaryo Hadi
+Author URI: http://www.sunaryohadi.info/
+Description: Base underscores.me using Bourbon
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: primebase
+Tags:
+*//*
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+primebase is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+
+Bourbon is a simple and lightweight mixin library for Sass, with
+lightweight semantic grid framework and base/variable styling
+Maintained and funded by thoughtbot, inc. http://bourbon.io/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+2.0 Bourbon
+  2.1 Neat
+  2.2 Base (Bitters)
+3.0 Modules
+  4.1 Accessibility
+  4.2 Alignments
+  4.3 Clearings
+  4.4 Infinite scroll
+4.0 Widgets
+5.0 Content
+  6.1 Layout
+  6.2 Posts and pages
+  6.3 Asides
+  6.4 Comments
+6.0 Media
+  7.1 Captions
+  7.2 Galleries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Normalize
+--------------------------------------------------------------*/
+@import "normalize"; // v3.0.2 
+
+
+/*--------------------------------------------------------------
+2.0 Bourbon
+--------------------------------------------------------------*/
+@import "bourbon/bourbon"; // v4.2.3 Load Bourbon SASS Function
+
+/*--------------------------------------------------------------
+2.1 Neat
+--------------------------------------------------------------*/
+@import "base/grid-settings"; // base: require to load before neat
+@import "neat/neat"; // v1.7.2
+
+/*--------------------------------------------------------------
+2.2 Base Bitters
+--------------------------------------------------------------*/
+@import "base/base"; // v4.2 
+
+/*--------------------------------------------------------------
+3.0 modules : Accessibility, Alignments, Clearing, Infinite
+--------------------------------------------------------------*/
+@import "modules/modules";
+
+/*--------------------------------------------------------------
+4.0 Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+5.0 Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+6.0 Media
+--------------------------------------------------------------*/
+@import "media/media";
+
+/*--------------------------------------------------------------
+7.0 bxSlider
+--------------------------------------------------------------*/
+// @import "modules/bxslider";

@@ -1,0 +1,9 @@
+.clear,
+.entry-content,
+.comment-content,
+.site-header,
+.main-navigation,
+.site-content,
+.site-footer {
+	@include clearfix;
+}
